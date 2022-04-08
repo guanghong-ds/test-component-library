@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/index.ts", "../../src/components/Button/Button.tsx"],
+  "sourcesContent": ["export * from './components'", "export interface ButtonProps {\n  label: string\n}\n\nconst Button = ({ label }: ButtonProps) => {\n  return <button>{label}</button>\n}\n\nexport default Button"],
+  "mappings": "4ZAAA,iDCIA,GAAM,GAAS,CAAC,CAAE,WACT,oBAAC,cAAQ,CAAM,EAGjB,EAAQ",
+  "names": []
+}
